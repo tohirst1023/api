@@ -1,0 +1,35 @@
+div {
+  background: rgb(46, 80, 152);
+  background: radial-gradient(
+    circle,
+    rgba(46, 80, 152, 1) 28%,
+    rgba(46, 80, 152, 1) 28%,
+    rgba(154, 28, 136, 1) 42%,
+    rgba(36, 61, 153, 1) 50%,
+    rgba(57, 87, 130, 1) 86%,
+    rgba(105, 148, 75, 1) 97%,
+    rgba(46, 80, 152, 1) 99%
+  );
+}
+
+.users div {
+  border: 2px solid green;
+  width: 20%;
+  padding: 20px;
+  background: rgb(46, 80, 152);
+  background: radial-gradient(
+    circle,
+    rgba(46, 80, 152, 1) 67%,
+    rgba(75, 135, 148, 1) 100%,
+    rgba(36, 61, 153, 1) 100%,
+    rgba(154, 28, 136, 1) 100%,
+    rgba(46, 80, 152, 1) 100%
+  );
+  color: white;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
